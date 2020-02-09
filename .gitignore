@@ -1,0 +1,10 @@
+/public
+/.cache
+/.idea
+/node_modules
+.env.development
+.env.production
+.npm
+.eslintcache
+
+*.tgz

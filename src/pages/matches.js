@@ -5,9 +5,6 @@ import {graphql } from "gatsby";
 import SEO from "../components/seo";
 
 const matches = ({data}) => {
-
-  console.log('data', data);
-
   return (
     <Layout>
       <SEO title="Mecze" />

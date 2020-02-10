@@ -24,26 +24,26 @@ const Footer = () => (
       return (
         <FooterRoot>
           <div 
-            class="container d-flex justify-content-lg-center
+            className="container d-flex justify-content-lg-center
             align-items-lg-center flex-column flex-lg-row py-3 py-lg-5">
 
             <div className="d-flex flex-column pr-lg-5">
-              <h5 class="m-1">Social media </h5>
+              <h5 className="m-1">Social media </h5>
               <FacebookLink href={"https://www.facebook.com/gorkaszczerez/"}>
                 <FaFacebookSquare/>
               </FacebookLink>
             </div>
 
             <div className="d-flex flex-column pr-lg-5">
-              <h5 class="m-1 mt-3">Adres </h5>
+              <h5 className="m-1 mt-2">Adres </h5>
               <p>
-                <span class="pr-1">
+                <span className="pr-1">
                   <FaMapMarkerAlt/>
                 </span>
                 Szczereż 88, 33-390 Łącko
               </p>
 
-              <h5 className="m-1 mt-3"> Kontakt </h5>
+              <h5 className="m-1 mt-2"> Kontakt </h5>
               <p>
                 <span className="pr-1">
                   <IoMdCall/>
@@ -56,7 +56,7 @@ const Footer = () => (
 
             <div className="cursor-ptr"> 
               <NavigationImageContainer>
-                <h5 className="m-1 mt-3"> Jak dojechać?</h5>
+                <h5 className="m-1 mt-2"> Jak dojechać?</h5>
                 <a href={"https://www.google.com/maps/dir//Stadion+LKS+G%C3%B3rka+Szczere%C5%BC,+33-386/@49.5676556,20.4943205,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x473dff9327502669:0x852493527fabafe8!2m2!1d20.4965145!2d49.5676556"}
                    >
                 <Img fluid={data.file.childImageSharp.fluid} />
@@ -90,6 +90,7 @@ const FooterRoot = styled.div`
 
 const FacebookLink = styled.a`
   font-size: 1.5rem;
+  margin-bottom: 1rem;
   margin-top: -0.3rem;
   color: var(--mainWhite);
     &:hover,

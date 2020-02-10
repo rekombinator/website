@@ -79,7 +79,7 @@ const Wrapper = styled.nav`
   z-index: 3;
   width: 100%;
   height: 3rem;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 200;
   a {
     text-decoration: none;
